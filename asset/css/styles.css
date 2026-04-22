@@ -604,9 +604,9 @@ h6,
 }
 
 .text-body-2 {
-  font-size: 1px;
+  font-size: 14px;
   line-height: 24px;
-  letter-spacing: 0px;
+  letter-spacing: 1px;
 }
 
 .text-body-3 {
@@ -3187,6 +3187,7 @@ header .mobile-menu {
 }
 
 @media (max-width: 991px) {
+
   .premium-hero .hero-copy,
   .premium-hero .hero-visual {
     grid-column: 1 / -1;
