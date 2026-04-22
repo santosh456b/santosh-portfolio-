@@ -2,7 +2,7 @@
 :root {
   --black: #000000;
   --white: #ffffff;
-  --primary: #F3500F;
+  --primary: #ff5100;
   --gradient1: radial-gradient(50% 50% at 50% 50%, #FB8F10 0%, #FE0101 100%);
   --gradient2: linear-gradient(144.12deg, #FB8F10 14.68%, #FE0101 81.68%);
   --gradient3: linear-gradient(136.55deg, #FB8F10 5.49%, #FE0101 100%);
@@ -4701,6 +4701,36 @@ header .mobile-menu {
   text-align: end;
 }
 
+.section-header .location-badge {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  color: #fcfcfc;
+  text-align: center;
+}
+
+.section-header .location-line {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  line-height: 1.30;
+  font-weight: 400;
+}
+
+.section-header .location-icon {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.section-header .location-icon svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
 .page-title {
   padding: 100px 0;
 }
@@ -5292,6 +5322,20 @@ header .mobile-menu {
 
   .header-inner .header-right {
     text-align: center;
+  }
+
+  .header-inner .header-right .location-badge {
+    align-items: center;
+  }
+
+  .header-inner .header-right .location-line {
+    justify-content: center;
+    font-size: 22px;
+  }
+
+  .header-inner .header-right .location-icon {
+    width: 24px;
+    height: 24px;
   }
 
   .section-partners.v3 .wrap-section .text-tab span,
